@@ -6,7 +6,7 @@ public class Velosity {
         String [] arr = new String[2];
         System.out.print("Расстояние(км): ");
         arr[0]=in.nextLine();
-        System.out.print("Time(ч): ");
+        System.out.print("Время(ч): ");
         arr[1]=in.nextLine();
         Ex xx= new Ex(arr);
         xx.VS();
