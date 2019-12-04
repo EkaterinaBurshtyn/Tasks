@@ -1,0 +1,8 @@
+1. Generate the output 4247 from the original StringBuilder
+“0123456789” using al the methods from the list below:
+-   append;
+-   insert;
+-  delete;
+-  replace.
+
+2. Than change the type of the string to String. Find out which methods are not valid any more. 
