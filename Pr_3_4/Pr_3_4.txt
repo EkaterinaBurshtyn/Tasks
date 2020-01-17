@@ -1,0 +1,24 @@
+Pr.3-4
+Create a class called ConnectionManager that
+manages a fixed array of Connection objects.
+The client programmer must not be able to
+create Connection objects, but only get them
+via a static method in ConnectionManager.
+ConnectionManager returns a null reference when
+it runs out of objects. Test the classes in main().
+
+Class Connection has the next functionality:
+-	has a counter of instances
+-	automatically generates new id for a new connection
+-	has method toString()
+-	has method doSomething()
+
+Make a ConnectionManager to be instantiated only once.
+
+Use a Singleton programming paradigm.
+
+Check list
+- Define a private static attribute in the “single instance” class. 
+- Define a public static accessor function in the class. 
+- Do “lazy initialization” (creation on first use) in the accessor function. 
+- Define all constructors to be protected or private. 
