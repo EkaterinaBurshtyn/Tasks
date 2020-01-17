@@ -1,0 +1,3 @@
+Pr.3-1
+1. In the same package construct  three classes demonstrated in the picture. Try different accesses modifiers.
+2. Try to use Convertible and Driver classes in another package. Try different access modifiers as well.
